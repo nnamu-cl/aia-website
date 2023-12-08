@@ -3,6 +3,14 @@
     margin-top: 20px; /* Adjust spacing as needed */
 }
 
+.ant-btn-primary {
+  background-color: white;
+  color: #153cbb;
+  border: .5px solid rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+  margin-top: 40px !important;
+ }
+
 .mission-text {
     font-size: 1rem !important; /* Set font size to 0.5rem */
     position: relative;
@@ -10,6 +18,14 @@
    margin-top: 50px;
     text-transform: uppercase;
 
+}
+
+.subtitle-text{
+  font-size: 1rem !important; /* Set font size to 0.5rem */
+  position: relative;
+  margin-bottom: 30px !important;
+  margin-top: 10px !important;
+  text-transform: uppercase;
 }
 
 .main-text {

@@ -19,9 +19,18 @@ function App() {
     <Layout className="layout">
       <TopBar />
       <div className="content">
-        <Title level={4} className="mission-text">Revolutionizing GPTs</Title>
-        <Title level={1} className="main-text">Take a deep dive into our work on<br/>Pinecone and CustomGPTs</Title>
-        <Button type="primary" className="learn-more-button watch-button"style={{width: '150px', height: '50px', fontSize: '20px'}}>Watch</Button>
+        <Title level={2} className="mission-text">AI FOR ALL</Title>
+        <Title level={1} className="main-text">Democratizing industry-leading AI: <br/>Research and Publications</Title>
+        <Title level={6} className="subtitle-text"> Our continuing efforts to make top-tier AI tools and knowledge universally accessible to all.</Title>
+
+        <Button 
+ type="primary" 
+ className="learn-more-button watch-button"
+ style={{width: '150px', height: '50px', fontSize: '20px'}}
+ onClick={() => window.open('https://www.youtube.com/channel/UCuDW_KBcvfw23iyGvJnx1tg', '_blank')}
+>
+ Watch
+</Button>
         <div className="latest-news-section">
           <Title level={2} className="latest-news-title latest-videos">Latest Videos</Title>
           <Paragraph className="latest-news-description GPT-videos">Discover our latest GPT Videos and updates from the lab</Paragraph>
@@ -36,7 +45,7 @@ function App() {
     <MyCard/>
        </div>
 
-       <ContactUs/>
+       {/* <ContactUs/> */}
       {/* <div style={{ textAlign: 'center', marginTop: '20px' }}>
         <Title level={2}>Technologies</Title>
         <Paragraph style={{ fontSize: '1rem' }}>
@@ -146,7 +155,7 @@ function App() {
       <Footer style={{ textAlign: 'center', padding: '24px 50px' }}>
         <Row justify="space-between" align="middle">
           <Col>
-            <Text>©2023 Your Company Name</Text>
+            <Text>©2023 AI Applied</Text>
           </Col>
           <Col>
             <Space>
@@ -155,7 +164,7 @@ function App() {
             </Space>
           </Col>
           <Col>
-            <Text>Contact Us: contact@example.com</Text>
+            <Text>Contact Us: namusanganicho@gmail.com.com</Text>
           </Col>
         </Row>
       </Footer>

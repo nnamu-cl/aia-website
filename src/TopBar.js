@@ -90,7 +90,7 @@ const TopBar = () => {
             onMouseLeave={handleMenuItemLeave}
             style={menuItemStyles}
           >
-            <a className='hoverable' href="#youtube" style={{ color: 'black' }}>YouTube</a>
+            <a className='hoverable' href="https://www.youtube.com/channel/UCuDW_KBcvfw23iyGvJnx1tg" style={{ color: 'black' }}>YouTube</a>
             <div className={hoveredItem === 'youtube' ? 'reflection' : ''} style={reflectionStyles}></div>
           </Menu.Item>
           <Menu.Item
@@ -99,7 +99,7 @@ const TopBar = () => {
             onMouseLeave={handleMenuItemLeave}
             style={menuItemStyles}
           >
-            <a className='hoverable' href="#patreon" style={{ color: 'black' }}>Patreon</a>
+            <a className='hoverable' href="https://www.patreon.com/namusanga" style={{ color: 'black' }}>Patreon</a>
             <div className={hoveredItem === 'patreon' ? 'reflection' : ''} style={reflectionStyles}></div>
           </Menu.Item>
         </Menu>
