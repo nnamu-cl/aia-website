@@ -1,0 +1,187 @@
+.content {
+    text-align: center; /* Center align the content */
+    margin-top: 20px; /* Adjust spacing as needed */
+}
+
+.mission-text {
+    font-size: 1rem !important; /* Set font size to 0.5rem */
+    position: relative;
+    margin-bottom: 30px !important;
+   margin-top: 50px;
+    text-transform: uppercase;
+
+}
+
+.main-text {
+    font-size: 5rem !important; /* Set font size to 5rem */
+    font-weight: bold; /* Make the text bold */
+    margin: 30px 0px 80px 0px !important;
+    align-self: center;
+}
+
+
+
+.latest-news-section {
+    text-align: left; /* Align the latest news section to the left */
+    margin-top: 30px; /* Spacing above the latest news section */
+    padding-left: 80px; /* Space from the left margin */
+}
+
+.latest-news-title {
+    font-size: 2rem; /* Set font size for the latest news title */
+    margin-bottom: 15px; /* Spacing between title and description */
+}
+.watch-button{
+  margin-bottom: 40px;
+
+}
+
+.GPT-videos{
+  margin-bottom: 30px !important;
+  font-size: 1rem;
+}
+.latest-videos{
+  font-size: 3rem !important;
+  margin-bottom: 40px !important;
+}
+.card-text {
+    font-size: 0.7rem; /* Set font size to 5rem */
+    text-align: left; /* Align text to the left */
+    margin-left: 0px; /* Space from the left margin of the card */
+}
+.custom-image-overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+   */
+   .text-overlay{
+    text-align: center;
+   }
+  .learn-more-button {
+    margin-top: 20px; /* Spacing from the text above */
+    border-radius: 90px; /* Rounded edges */
+  }
+  .custom-card-overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .overlay-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: white;
+    text-align: center;
+    opacity: 0; /* Initially invisible */
+    transition: opacity 0.5s ease; /* Smooth transition for the overlay */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .custom-card-overlay:hover .overlay-content {
+    opacity: 1; /* Make the overlay visible when hovering */
+  }
+  
+  .hover-card .custom-card-overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .hover-card .overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0; /* Initially invisible */
+    transition: opacity 0.5s ease; /* Smooth transition for the overlay */
+    text-align: center;
+  }
+  
+  .hover-card:hover .overlay-content {
+    opacity: 1; /* Make the overlay visible when hovering */
+  }
+  .typing-effect {
+  white-space: nowrap; /* Prevent line breaks within the text */
+  overflow: hidden;
+  border-right: 2px solid transparent; /* Transparent initial border to simulate typing */
+  animation: typing 4s steps(40, end) infinite, blink-caret .75s step-end infinite;
+  font-size: 2rem; /* Adjust font size as needed */
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+
+
+.custom-card {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.burner{
+ 
+margin-top: 100px;
+margin-bottom: 100px;
+  
+}
+div .card-image {
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+.card-text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s ease;
+}
+
+.custom-card:hover .card-text-overlay {
+  opacity: 1;
+}
+
+
+.card-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+
+
+
+
