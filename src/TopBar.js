@@ -75,7 +75,7 @@ const TopBar = () => {
             <a className='hoverable' href={body} style={{ color: 'black' }}>Home</a>
             <div className={hoveredItem === 'home' ? 'reflection' : ''} style={reflectionStyles}></div>
           </Menu.Item>
-          <Menu.Item
+          {/* <Menu.Item
             key="contact"
             onMouseEnter={() => handleMenuItemHover('contact')}
             onMouseLeave={handleMenuItemLeave}
@@ -83,7 +83,7 @@ const TopBar = () => {
           >
             <a className='hoverable' href= './contact_us.jsx' style={{ color: 'black' }}>Contact</a>
             <div className={hoveredItem === 'contact' ? 'reflection' : ''} style={reflectionStyles}></div>
-          </Menu.Item>
+          </Menu.Item> */}
           <Menu.Item
             key="youtube"
             onMouseEnter={() => handleMenuItemHover('youtube')}

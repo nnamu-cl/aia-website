@@ -39,7 +39,7 @@ function MyImage() {
       <img alt="Image" src={Burner} style={imageStyle} />
       <div style={contentStyle}>
         <Paragraph style={{ fontSize: "2.5rem" }}>
-          A practical and rewarding<br /> introduction to AI
+        A hands-on and enriching journey into the world of AI.
         </Paragraph>
         <Paragraph style={{ fontSize: "1.2rem" }}>
           We have done a lot of work to bring your vectorized dataset closer
