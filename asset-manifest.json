@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/aia-website/static/css/main.562c2eee.css",
-    "main.js": "/aia-website/static/js/main.f2e346db.js",
-    "static/js/787.9697242d.chunk.js": "/aia-website/static/js/787.9697242d.chunk.js",
-    "static/media/burner.jpg": "/aia-website/static/media/burner.1cc99da3f08fdadb9d7e.jpg",
-    "static/media/sddefault2.jpg": "/aia-website/static/media/sddefault2.e56ab1de16f595428876.jpg",
-    "static/media/sddefault.jpg": "/aia-website/static/media/sddefault.683db32952658f945758.jpg",
-    "static/media/sddefault1.jpg": "/aia-website/static/media/sddefault1.188e3e9da404766d3513.jpg",
-    "static/media/logo-no-background.png": "/aia-website/static/media/logo-no-background.d7b221dfd3d63f3658ba.png",
-    "index.html": "/aia-website/index.html",
-    "main.562c2eee.css.map": "/aia-website/static/css/main.562c2eee.css.map",
-    "main.f2e346db.js.map": "/aia-website/static/js/main.f2e346db.js.map",
-    "787.9697242d.chunk.js.map": "/aia-website/static/js/787.9697242d.chunk.js.map"
+    "main.css": "/static/css/main.562c2eee.css",
+    "main.js": "/static/js/main.cf7c08c1.js",
+    "static/js/787.9697242d.chunk.js": "/static/js/787.9697242d.chunk.js",
+    "static/media/burner.jpg": "/static/media/burner.1cc99da3f08fdadb9d7e.jpg",
+    "static/media/sddefault2.jpg": "/static/media/sddefault2.e56ab1de16f595428876.jpg",
+    "static/media/sddefault.jpg": "/static/media/sddefault.683db32952658f945758.jpg",
+    "static/media/sddefault1.jpg": "/static/media/sddefault1.188e3e9da404766d3513.jpg",
+    "static/media/logo-no-background.png": "/static/media/logo-no-background.d7b221dfd3d63f3658ba.png",
+    "index.html": "/index.html",
+    "main.562c2eee.css.map": "/static/css/main.562c2eee.css.map",
+    "main.cf7c08c1.js.map": "/static/js/main.cf7c08c1.js.map",
+    "787.9697242d.chunk.js.map": "/static/js/787.9697242d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.562c2eee.css",
-    "static/js/main.f2e346db.js"
+    "static/js/main.cf7c08c1.js"
   ]
 }
